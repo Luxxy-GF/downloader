@@ -26,7 +26,7 @@ pub struct Group {
 pub async fn fetch_templates() -> anyhow::Result<Vec<Group>> {
     let args: Vec<String> = env::args().collect();
 
-    let default_url = "https://images.cdn.convoypanel.com/images.json".to_string();
+    let default_url = "https://images.cdn.luxxysystems.com/images.json".to_string();
 
     let url = args.get(1).unwrap_or(&default_url);
 

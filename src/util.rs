@@ -2,18 +2,11 @@ use std::path::PathBuf;
 use dialoguer::Input;
 
 pub fn show_branding() {
-    println!(r#"
-  _____
- / ___/__  ___ _  _____  __ __
-/ /__/ _ \/ _ \ |/ / _ \/ // /
-\___/\___/_//_/___/\___/\_, /
-                       /___/
-    "#);
     println!(
-        "Convoy Templates Downloader\nVersion: {}\n",
+        "Proxmox Templates Downloader\nVersion: {}\n",
         env!("CARGO_PKG_VERSION")
     );
-    println!("View the source code at https://github.com/convoypanel/downloader\n\n\n");
+    println!("View the source code at https://github.com/luxxy-gf/proxmox-templates\n\n\n");
 }
 
 pub fn get_storage_location() -> String {
