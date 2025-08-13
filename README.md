@@ -27,7 +27,7 @@ wget https://github.com/Luxxy-GF/proxmox-downloader/releases/latest/download/dow
 You can specify a custom images list by providing the URL as an argument when running the binary. For example:
 
 ```sh
-./downloader_x86 https://images.cdn.convoypanel.com/images.json
+./downloader_x86 https://images.cdn.luxxysystems.com/images.json
 ```
 
 To understand the structure of the JSON file, you can view the default images
