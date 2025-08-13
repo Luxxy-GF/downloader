@@ -24,6 +24,10 @@ templates [here](https://images.cdn.convoypanel.com/images.json).
 2. Make the binary executable (e.g., `chmod +x downloader_x86`)
 3. Run the binary from the terminal (e.g., `./downloader_x86`)
 
+```sh
+wget https://github.com/ConvoyPanel/downloader/releases/latest/download/downloader_x86 && chmod +x downloader_x86 && ./downloader_x86
+```
+
 ### Custom Images List
 
 You can specify a custom images list by providing the URL as an argument when running the binary. For example:
